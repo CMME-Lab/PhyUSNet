@@ -27,11 +27,12 @@ pip install -r physics_guided_simulation/requirements.txt
 
 ### Physics Simulation Output
 
-The simulation pipeline generates B-mode images and corresponding labels. Outputs are referenced via an `.npz` file with `train`, `val`, and `test` splits, where each entry stores `(scan_path, label_path, sample_id)`. Please send an email to request access to the physics-based dataset of 10,000 segmentation tumors.
+The simulation pipeline generates B-mode images and corresponding labels. Outputs are referenced via an `.npz` file with `train`, `val`, and `test` splits, where each entry stores `(scan_path, label_path, sample_id)`. Our dataset can be accessed via Zenodo repository [link](https://zenodo.org/records/18449815?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjRjOGYwYjkyLWIzZDMtNDA5ZS1iNjBkLWU4NmU4NTFlNDU4MiIsImRhdGEiOnt9LCJyYW5kb20iOiJhOWNlZTlkOTA1NGUwNTY5MDc4YmEzNTNiMjA5NTUzNyJ9.0EIZyQEuAddLju1JOAiqTX25Wh2_EdO19hTbLFP__GiTmWf8NRMhAV-ywSIVW8QRWTEtc1v5lz56xGiLpYNJVw)
 
 ### Clinical Datasets
 
-Clinical datasets are organized under `benchmark_datasets/US30K/`, each with `img/` and `label/` subfolders. Download the dataset package and train-test split information from the Google Drive folder [link]() (placeholder). Supported datasets include BUSI, UDIAT, TN3K, DDTI, MMOTU2D, and others.
+Clinical datasets are organized under `benchmark_datasets/US30K/`, each with `img/` and `label/` subfolders. Download the datasets and train-test split information from the Google Drive folder [link](https://drive.google.com/file/d/1P9VYaNEq8ww42c2lsAKa0C2gqMjPP6UJ/view?usp=drive_link).
+Supported datasets include BUSI, UDIAT, TN3K, DDTI, MMOTU2D, and others.
 
 ## Usage
 
@@ -50,7 +51,7 @@ python train.py
 python test.py
 ```
 
-Checkpoints for synthetic-to-real ultrasound transfer models are available in the Google Drive folder [link]() (placeholder).
+Checkpoints for synthetic-to-real ultrasound transfer models are available in the Google Drive folder [link]().
 
 ### 3. Physics Pretraining
 
@@ -59,7 +60,7 @@ cd phyusnet
 python main.py --dataset_path /path/to/physics_data/paths.npz --model_name segformer --epochs 100
 ```
 
-All segmentation checkpoints are available in the Google Drive folder [link]() (placeholder).
+All segmentation checkpoints are available in the Google Drive folder [link].
 
 ### 4. Task-Specific Fine-Tuning
 
@@ -85,7 +86,7 @@ Quantitative results report Dice, IoU, and HD95 across multiple datasets in the 
 
 - Physics-pretrained models: `phyusnet/checkpoints/physics_models/`
 - Task-specific fine-tuned models: `phyusnet/checkpoints/task_specific_models/`
-All checkpoints are also available in the Google Drive folder [link]() (placeholder).
+All checkpoints are also available in the Google Drive folder [link]().
 
 <!-- ## Citation
 
@@ -99,5 +100,10 @@ If you use this codebase, please cite the paper:
   year={2026}
 } -->
 
-<!-- ## Acknowledgements
-We thank the authors of k-Wave and the open-source implementations of UNet, UNet++, SegFormer, SwinUNet, and TransUNet. We also acknowledge the maintainers of segmentation-models-pytorch and the CycleGAN/pix2pix codebase used for style augmentation. -->
+## Acknowledgements
+We thank the authors of k-Wave and the open-source implementations of UNet, UNet++, SegFormer, SwinUNet, and TransUNet. We also acknowledge the maintainers of segmentation-models-pytorch and the CycleGAN/pix2pix codebase used for style augmentation.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
