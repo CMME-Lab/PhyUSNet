@@ -1,0 +1,19 @@
+/__pycache__
+/wandb
+/visualizations
+*.pyc
+helpers/__pycache__/file_utils.cpython-310.pyc
+/debug_visualizations
+/debug_visualizations
+*.pyc
+# json,pngs, csvs, .mat
+*.json
+*.csv
+*.mat
+*.npz
+*.pkl
+*.pt
+*.pth
+*.pkl.gz
+*.pkl.bz2
+*.pkl.zip
