@@ -1,5 +1,4 @@
-# Towards Generalizable Ultrasound Segmentation via 
-Physics-Guided Supervision
+# Towards Generalizable Ultrasound Segmentation via Physics-Guided Supervision
 
 This repository contains the official implementation of our paper "Towards Generalizable Ultrasound Segmentation via Physics-Guided Supervision".
 
@@ -88,7 +87,7 @@ Quantitative results report Dice, IoU, and HD95 across multiple datasets in the 
 - Task-specific fine-tuned models: `phyusnet/checkpoints/task_specific_models/`
 All checkpoints are also available in the Google Drive folder [link]() (placeholder).
 
-## Citation
+<!-- ## Citation
 
 If you use this codebase, please cite the paper:
 
@@ -98,9 +97,9 @@ If you use this codebase, please cite the paper:
   author={Haris and collaborators},
   journal={Under review},
   year={2026}
-}
+} -->
 ```
 
 ## Acknowledgements
 
-We thank the authors of k-Wave and the open-source implementations of UNet, UNet++, SegFormer, SwinUNet, and TransUNet. We also acknowledge the maintainers of segmentation-models-pytorch and the CycleGAN/pix2pix codebase used for style augmentation.
+<!-- We thank the authors of k-Wave and the open-source implementations of UNet, UNet++, SegFormer, SwinUNet, and TransUNet. We also acknowledge the maintainers of segmentation-models-pytorch and the CycleGAN/pix2pix codebase used for style augmentation. -->
