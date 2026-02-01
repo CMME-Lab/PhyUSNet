@@ -98,8 +98,6 @@ If you use this codebase, please cite the paper:
   journal={Under review},
   year={2026}
 } -->
-```
 
-## Acknowledgements
-
-<!-- We thank the authors of k-Wave and the open-source implementations of UNet, UNet++, SegFormer, SwinUNet, and TransUNet. We also acknowledge the maintainers of segmentation-models-pytorch and the CycleGAN/pix2pix codebase used for style augmentation. -->
+<!-- ## Acknowledgements
+We thank the authors of k-Wave and the open-source implementations of UNet, UNet++, SegFormer, SwinUNet, and TransUNet. We also acknowledge the maintainers of segmentation-models-pytorch and the CycleGAN/pix2pix codebase used for style augmentation. -->
