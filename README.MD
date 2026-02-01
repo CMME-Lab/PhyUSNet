@@ -89,17 +89,31 @@ Quantitative results report Dice, IoU, and HD95 across multiple datasets in the 
 - Task-specific fine-tuned models: `phyusnet/checkpoints/task_specific_models/`
 All checkpoints are also available in the Google Drive folder [link]().
 
-<!-- ## Citation
+## Citation
 
-If you use this codebase, please cite the paper:
+If you use this codebase or dataset, please cite:
 
-```bibtex
-@article{haris2026physicsguided,
-  title={Towards Generalizable Ultrasound Segmentation via Physics-Guided Supervision},
-  author={Haris and collaborators},
-  journal={Under review},
-  year={2026}
-} -->
+@misc{ghafoor2026physicsguided,
+  author       = {Ghafoor, Haris and Shin, Minho and Kyungho, Yoon},
+  title        = {Towards Generalizable Ultrasound Segmentation via Physics-Guided Supervision},
+  month        = feb,
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18449815},
+  url          = {https://doi.org/10.5281/zenodo.18449815}
+}
+
+
+@misc{ghafoor_2026,
+	author       = { ghafoor },
+	title        = { PhyUS-Net (Revision b5279a7) },
+	year         = 2026,
+	url          = { https://huggingface.co/haris2k/PhyUS-Net },
+	doi          = { 10.57967/hf/7695 },
+	publisher    = { Hugging Face }
+}
+
+
 
 ## Acknowledgements
 
