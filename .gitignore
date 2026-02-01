@@ -14,9 +14,12 @@ benchmark_datasets/
 **/checkpoints/
 **/wandb/
 wandb/
+**/results/
 
 *.pth
 *.ckpt
 *.safetensors
 *.npz
 *.wandb
+# json
+*.json
