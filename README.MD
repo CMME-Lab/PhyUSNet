@@ -2,6 +2,7 @@
 
 This repository contains the official implementation of our paper "Towards Generalizable Ultrasound Segmentation via Physics-Guided Supervision".
 
+Authors: Ghafoor Haris, Minwoo Shin & Kyungho Yoon
 ## Summary
 
 We propose a physics-guided ultrasound segmentation framework that simulates B-mode images by solving the acoustic wave equation and reduces the simulation-to-real gap using style-preserving adaptation. The resulting models generalize well across diverse clinical datasets and transfer effectively to downstream tasks.
@@ -101,8 +102,10 @@ If you use this codebase, please cite the paper:
 } -->
 
 ## Acknowledgements
-We thank the authors of k-Wave and the open-source implementations of UNet, UNet++, SegFormer, SwinUNet, and TransUNet. We also acknowledge the maintainers of segmentation-models-pytorch and the CycleGAN/pix2pix codebase used for style augmentation.
 
+The work was supported by the National Research Foundation of Korea (NRF) funded by the Korean government (MSIT) under Grants RS-2024-00335185. This work was also supported by the Regional Innovation System \& Education(RISE) program through the Gangwon RISE Center, funded by the Ministry of Education (MOE) and the Gangwon State (G.S.), Republic of Korea (2025-RISE-10-006). 
+
+We acknowledge the developers of k-Wave and Python k Wave, as well as the authors of the open source implementations of U Net, U Net plus plus, SegFormer, Swin U Net, and Trans U Net. We also acknowledge the maintainers of segmentation models pytorch and the CycleGAN and pix2pix codebases used for style augmentation.
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
