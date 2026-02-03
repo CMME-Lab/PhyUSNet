@@ -61,8 +61,7 @@ cd phyusnet
 python main.py --dataset_path /path/to/physics_data/paths.npz --model_name segformer --epochs 100
 ```
 
-All segmentation checkpoints are available in the Google Drive folder [link].
-
+All segmentation checkpoints are available in the HuggingFace [link](https://huggingface.co/haris2k/PhyUS-Net).
 ### 4. Task-Specific Fine-Tuning
 
 ```bash
@@ -87,7 +86,7 @@ Quantitative results report Dice, IoU, and HD95 across multiple datasets in the 
 
 - Physics-pretrained models: `phyusnet/checkpoints/physics_models/`
 - Task-specific fine-tuned models: `phyusnet/checkpoints/task_specific_models/`
-All checkpoints are also available in the Google Drive folder [link]().
+All checkpoints are also available in HuggingFace [link](https://huggingface.co/haris2k/PhyUS-Net).
 
 ## Citation
 
